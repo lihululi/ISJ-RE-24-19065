@@ -1,7 +1,7 @@
 function [flag, gamma, R] = GAEg1_LMI(XXX)
 XXX = XXX';
 
-[A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00] = Eg1_paramaters();
+[A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00] = Eg1_parameters();
 
 omi_s3 = 0.35;
 omi_s4 = 0.65;
