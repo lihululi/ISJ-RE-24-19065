@@ -2,7 +2,7 @@ clc
 clear
 close all
 
-[A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00,R] = Eg1_paramaters();
+[A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00,R] = Eg1_parameters();
 
 bar_I1 = [eye(2,2);zeros(2,2)];
 bar_I2 = [zeros(2,2);eye(2,2)];
