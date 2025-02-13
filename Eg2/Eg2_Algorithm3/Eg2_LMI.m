@@ -1,7 +1,7 @@
 function [flag, gamma, R] = Eg2_LMI(XXX)
 XXX = XXX';
 
-[A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00] = Eg2_paramaters();
+[A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00] = Eg2_parameters();
 
 omi_s3 = 0.5;
 omi_s4 = 0.5;
