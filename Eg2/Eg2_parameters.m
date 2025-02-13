@@ -1,4 +1,4 @@
-function [Ad,Bd,Cd,F,Gd,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00] = a1paramaters()
+function [Ad,Bd,Cd,F,Gd,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00] = Eg2_parameters()
 
 Tt1 = 0.33; Tt2 = 0.35;
 Tg1 = 0.1; Tg2 = 0.1;
