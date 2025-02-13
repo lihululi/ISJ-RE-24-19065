@@ -1,4 +1,4 @@
-function [A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00,R] = Eg1_paramaters()
+function [A,B,C,F,G,kappa,T,mu,dd,c1,c2,Attack_signal,Channel_attacked,x00,R] = Eg1_parameters()
 a = 0.2;
 b = 0.2;
 
